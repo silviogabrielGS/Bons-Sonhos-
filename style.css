@@ -1,0 +1,422 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body{
+    width: 100vw;
+    background-image: url(images/fundo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+#logo-menu{
+    width: 15vw;
+}
+
+.nav-item{
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 2px;
+}
+
+#texto-colecao{
+    width: 40vw;
+    text-align: center;
+}
+
+#imagem-colecao{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 45vw;
+}
+
+#img-grande{
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 40vw;
+}
+
+#paragrafo-colecao{
+    width: 400px;
+    color: white;
+    font-size: 1.25em;
+}
+
+#titulo-colecao{
+    font-size: 3.5em;
+    color: white;
+}
+
+.texto-branco{
+    color: white;
+}
+
+#texto-instagram{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+}
+
+.fotos-instagram{
+    max-width: 1810px;
+}
+
+.img{
+    width: 350px;
+    height: 400px;
+    transition: 1s;
+}
+
+.img:hover{
+    transform: scale(1.25);
+    transition: 1s;
+}
+
+#quadro-promocao{
+    font-family:'Poppins' ;
+    width: 300px;
+    background-color: #8C4250;
+    border-radius: 5%;
+    color: white;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#preco-grande{
+    font-size: 120px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+#preco-pequeno{
+    font-size: 48px;
+    margin-top: -80px;
+    margin-bottom: 0px;
+    margin-left: 60px;
+}
+
+#a-partir-de{
+    margin-bottom: -20px;
+}
+
+#carrossel{
+    width: 70vw;
+    height: 417px;
+    overflow-x: scroll;
+    margin-top: 20px;
+}
+
+#carrossel::-webkit-scrollbar{
+    width: 3px;
+    height: 7px;
+}
+
+#carrossel::-webkit-scrollbar-track {
+    background-color: #f4f4f400;
+    border-radius: 10px;
+}
+
+#carrossel::-webkit-scrollbar-thumb{
+    background-color: #8C4250;
+    border-radius: 10px;
+}
+
+.carousel-item{
+    transition: none;
+}
+
+.img-carousel{
+    height: 400px;
+    width: 300px;
+}
+
+#quem-somos{
+    width: 80vw;
+    background-color: #8C4250;
+    border-radius: 20px;
+    max-width: 1000px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#t-quem-somos{
+    font-family:'Poppins' ;
+    color: white;
+}
+
+#p-quem-somos{
+    font-family: 'Inter', sans-serif;
+    max-width: 800px;
+    color: white;
+}
+
+#local{
+    font-family: 'Inter', sans-serif;
+    background-color:#8C6764 ;
+    color: white;
+}
+
+#p-local{
+    max-width: 400px;
+}
+
+#frame{
+    width: 40vw;
+}
+
+.p-contato{
+    font-family: 'Inter', sans-serif;
+}
+
+#contato{
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 4px;
+    color: white;
+    width: 80vw;
+    background-color: #8C4250;
+    border-radius: 20px;
+    max-width: 1000px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.icone{
+    width: 70px;
+    height: 70px;
+}
+
+.btn-secondary{
+    background-color: #F2BFBB;
+    border:none ;
+}
+
+.p-contato{
+    font-size: 30px;
+}
+
+
+
+@media (max-width:1200px) {
+
+    #quadro-promocao{
+        width: 250px;
+    }
+
+    #preco-grande{
+        font-size: 80px;
+    }
+    
+    #preco-pequeno{
+        font-size: 38px;
+        margin-top: -60px;
+    }
+    
+    #carrossel{
+        width: 60vw;
+        height: 317px;
+        overflow-x: scroll;
+        margin-top: 20px;
+    }
+
+    .img-carousel{
+        height: 300px;
+        width: 300px;
+    }
+
+    .icone-whatsapp{
+        width: 80px;
+    }
+}
+
+@media (max-width: 992px){
+    #paragrafo-colecao{
+        width: 300px;
+        color: white;
+        font-size: 1em;
+    }
+    
+    #titulo-colecao{
+        font-size: 2em;
+        color: white;
+    }
+
+    #logo-menu{
+        width: 25vw;
+    }
+    
+    #texto-instagram{
+        font-size: 20px;
+    }
+    
+    .img{
+        width: 250px;
+        height: 320px;
+    }
+
+    #quadro-promocao{
+        width: 200px;
+    }
+
+    #todas-as-pecas{
+        font-size: 20px;
+    }
+    
+    #a-partir-de{
+        font-size: 10px;
+        margin-bottom: -5px;
+    }
+
+    #preco-grande{
+        font-size: 80px;
+        margin-top: 10px;
+    }
+    
+    #preco-pequeno{
+        font-size: 28px;
+        margin-top: -50px;
+        margin-left: 40px;
+    }
+    
+    #carrossel{
+        width: 60vw;
+        height: 267px;
+        overflow-x: scroll;
+        margin-top: 20px;
+    }
+
+    .img-carousel{
+        height: 250px;
+        width: 250px;
+    }
+
+    #frame{
+        width: 60vw;
+    }
+
+    #contato{
+        letter-spacing: 0.5px;
+        font-size: 20px;
+    }
+
+    .icone{
+        width: 50px;
+        height: 50px;
+    }
+
+    .p-contato{
+        font-size: 20px;
+    }
+
+    .icone-whatsapp{
+        width: 60px;
+        left: 85vw;
+        top: 85vh; 
+    }
+
+}
+
+@media (max-width:568px) {
+
+    #paragrafo-colecao{
+        width: fit-content;
+        color: white;
+        font-size: .75em;
+        line-height: 1;
+        padding: 5px;
+    }
+    
+    #titulo-colecao{
+        font-size: 1em;
+        color: white;
+    }
+
+    #texto-colecao{
+        width: 30vw;
+        text-align: center;
+        padding-top: 60px;
+    }
+    
+    #imagem-colecao{
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 60vw;
+        height: 90vh;
+    }
+
+    #img-grande{
+        width: 65vw;
+        height: max-content;
+    }
+    
+    #texto-instagram{
+        font-size: 12px;
+    }
+        
+    .img{
+        width: 160px;
+        height: 200px;
+    }
+    
+    #quadro-promocao{
+        width: 125px;
+    }
+    
+    #todas-as-pecas{
+        font-size: 15px;
+    }
+
+    #preco-pequeno{
+        font-size: 18px;
+    }
+
+    #a-partir-de{
+        font-size: 10px;
+        margin-bottom: -15px;
+    }
+
+    #preco-grande{
+        font-size: 70px;
+    }
+
+    #carrossel{
+        width: 60vw;
+        height: 217px;
+        overflow-x: scroll;
+        margin-top: 20px;
+    }
+
+    .img-carousel{
+        height: 200px;
+        width: 200px;
+    }
+
+    #frame{
+        width: 80vw;
+    }
+
+    #contato{
+        letter-spacing: 2px;
+        width: 80vw;
+        border-radius: 20px;
+        max-width: 1000px;
+    }
+
+    .icone{
+        width: 30px;
+        height: 30px;
+    }
+
+    .p-contato{
+        font-size: 15px;
+    }
+
+    .icone-whatsapp{
+        width: 60px;
+        left: 76vw;
+        top: 80vh; 
+    }
+}
