@@ -194,7 +194,40 @@ body::-webkit-scrollbar{
 }
 
 .p-contato{
-    font-size: 30px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+}
+
+#footer{
+    background-color: #8C4250;
+    height: 250px;
+}
+
+#img-footer{
+    width: 210px;
+    height: 194px;
+}
+
+.p-footer{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 3px;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.a-footer{
+    color: white;
+    text-decoration: none;
+}
+
+.icone-footer{
+    width: 30px;
+    height: 30px;
 }
 
 
@@ -422,5 +455,23 @@ body::-webkit-scrollbar{
         width: 60px;
         left: 76vw;
         top: 80vh; 
+    }
+
+    #footer{
+        height: fit-content;
+    }
+
+    .p-footer{
+        font-size: 10px;
+    }
+    
+    #img-footer{
+        width: 120px;
+        font-size: 10px;
+    }
+
+    .icone-footer{
+        width: 20px;
+        height: 20px;
     }
 }
