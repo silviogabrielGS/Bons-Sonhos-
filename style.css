@@ -320,36 +320,40 @@ body::-webkit-scrollbar{
 
 @media (max-width:568px) {
 
+
     #paragrafo-colecao{
         width: fit-content;
+        max-width: 90vw;
         color: white;
-        font-size: .75em;
+        font-size: 1em;
         line-height: 1;
         padding: 5px;
     }
     
     #titulo-colecao{
-        font-size: 1em;
+        font-size: 1.75em;
         color: white;
     }
 
     #texto-colecao{
-        width: 30vw;
+        width: 50vw;
         text-align: center;
         padding-top: 60px;
     }
     
     #imagem-colecao{
-        background-size: contain;
+        /* background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
         width: 60vw;
-        height: 90vh;
+        height: 90vh; */
+        display: none;
     }
 
     #img-grande{
-        width: 65vw;
-        height: max-content;
+        /* width: 65vw;
+        height: max-content; */
+        display: none;
     }
     
     #texto-instagram{
