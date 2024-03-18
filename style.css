@@ -1,477 +1,458 @@
 * {
     padding: 0;
-    margin: 0;
+    margin: 0
 }
 
-html, body{
+body,
+html {
     width: 100vw;
     background-image: url(images/fundo.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover
 }
 
-body::-webkit-scrollbar{
-    display: none;
+body::-webkit-scrollbar {
+    display: none
 }
 
-#logo-menu{
-    width: 15vw;
+#logo-menu {
+    width: 15vw
 }
 
-.nav-item{
-    font-family: 'Inter', sans-serif;
-    letter-spacing: 2px;
+.nav-item {
+    font-family: "Inter", sans-serif;
+    letter-spacing: 2px
 }
 
-#texto-colecao{
+#texto-colecao {
     width: 40vw;
-    text-align: center;
+    text-align: center
 }
 
-#imagem-colecao{
+#imagem-colecao,
+#img-grande {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    width: 45vw;
+    width: 45vw
 }
 
-#img-grande{
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 40vw;
+#img-grande {
+    width: 40vw
 }
 
-#paragrafo-colecao{
+#paragrafo-colecao {
     width: 400px;
-    color: white;
-    font-size: 1.25em;
+    color: #fff;
+    font-size: 1.25em
 }
 
-#titulo-colecao{
+#titulo-colecao {
     font-size: 3.5em;
-    color: white;
+    color: #fff
 }
 
-.texto-branco{
-    color: white;
+.texto-branco {
+    color: #fff
 }
 
-#texto-instagram{
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 3px;
+#texto-instagram {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 3px
 }
 
-.fotos-instagram{
-    max-width: 1810px;
+.fotos-instagram {
+    max-width: 1810px
 }
 
-.img{
+.img {
     width: 350px;
     height: 400px;
-    transition: 1s;
+    transition: 1s
 }
 
-.img:hover{
+.img:hover {
     transform: scale(1.25);
-    transition: 1s;
+    transition: 1s
 }
 
-#quadro-promocao{
-    font-family:'Poppins' ;
+#quadro-promocao {
+    font-family: "Poppins";
     width: 300px;
-    background-color: #8C4250;
+    background-color: #8c4250;
     border-radius: 5%;
-    color: white;
-    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #fff;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, .25)
 }
 
-#preco-grande{
+#preco-grande {
     font-size: 120px;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    padding-top: 0px;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-top: 0
 }
 
-#preco-pequeno{
+#preco-pequeno {
     font-size: 48px;
     margin-top: -80px;
-    margin-bottom: 0px;
-    margin-left: 60px;
+    margin-bottom: 0;
+    margin-left: 60px
 }
 
-#a-partir-de{
-    margin-bottom: -20px;
+#a-partir-de {
+    margin-bottom: -20px
 }
 
-#carrossel{
+#carrossel {
     width: 70vw;
     height: 417px;
     overflow-x: scroll;
-    margin-top: 20px;
+    margin-top: 20px
 }
 
-#carrossel::-webkit-scrollbar{
+#carrossel::-webkit-scrollbar {
     width: 3px;
-    height: 7px;
+    height: 7px
 }
 
 #carrossel::-webkit-scrollbar-track {
     background-color: #f4f4f400;
-    border-radius: 10px;
+    border-radius: 10px
 }
 
-#carrossel::-webkit-scrollbar-thumb{
-    background-color: #8C4250;
-    border-radius: 10px;
+#carrossel::-webkit-scrollbar-thumb {
+    background-color: #8c4250;
+    border-radius: 10px
 }
 
-.carousel-item{
-    transition: none;
+.carousel-item {
+    transition: none
 }
 
-.img-carousel{
+.img-carousel {
     height: 400px;
-    width: 300px;
+    width: 300px
 }
 
-#quem-somos{
+#quem-somos {
     width: 80vw;
-    background-color: #8C4250;
+    background-color: #8c4250;
     border-radius: 20px;
     max-width: 1000px;
-    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, .25)
 }
 
-#t-quem-somos{
-    font-family:'Poppins' ;
-    color: white;
+#t-quem-somos {
+    font-family: "Poppins";
+    color: #fff
 }
 
-#p-quem-somos{
-    font-family: 'Inter', sans-serif;
-    max-width: 800px;
-    color: white;
+#local,
+#p-quem-somos {
+    font-family: "Inter", sans-serif;
+    color: #fff
 }
 
-#local{
-    font-family: 'Inter', sans-serif;
-    background-color:#8C6764 ;
-    color: white;
+#p-quem-somos {
+    max-width: 800px
 }
 
-#p-local{
-    max-width: 400px;
+#local {
+    background-color: #8c6764
 }
 
-#frame{
-    width: 40vw;
+#p-local {
+    max-width: 400px
 }
 
-.p-contato{
-    font-family: 'Inter', sans-serif;
+#frame {
+    width: 40vw
 }
 
-#contato{
-    font-family: 'Inter', sans-serif;
+#contato,
+#footer {
+    background-color: #8c4250
+}
+
+#contato {
+    font-family: "Inter", sans-serif;
     letter-spacing: 4px;
-    color: white;
+    color: #fff;
     width: 80vw;
-    background-color: #8C4250;
     border-radius: 20px;
     max-width: 1000px;
-    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, .25)
 }
 
-.icone{
+.icone {
     width: 70px;
-    height: 70px;
+    height: 70px
 }
 
-.btn-secondary{
-    background-color: #F2BFBB;
-    border:none ;
+.btn-secondary {
+    background-color: #f2bfbb;
+    border: 0
 }
 
-.p-contato{
+.p-contato,
+.p-footer {
     font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 3px;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 3px
 }
 
-#footer{
-    background-color: #8C4250;
-    height: 250px;
+#footer {
+    height: 250px
 }
 
-#img-footer{
+#img-footer {
     width: 210px;
-    height: 194px;
+    height: 194px
 }
 
-.p-footer{
-    font-size: 20px;
-    font-family: 'Poppins', sans-serif;
-    letter-spacing: 3px;
-    color: white;
-    text-decoration: none;
+.p-footer {
     list-style: none;
     font-weight: lighter;
-    text-transform: uppercase;
+    text-transform: uppercase
 }
 
-.a-footer{
-    color: white;
-    text-decoration: none;
+.a-footer,
+.p-footer {
+    color: #fff;
+    text-decoration: none
 }
 
-.icone-footer{
+.icone-footer {
     width: 30px;
-    height: 30px;
+    height: 30px
 }
-
-
 
 @media (max-width:1200px) {
-
-    #quadro-promocao{
-        width: 250px;
+    #quadro-promocao {
+        width: 250px
     }
 
-    #preco-grande{
-        font-size: 80px;
+    #preco-grande {
+        font-size: 80px
     }
-    
-    #preco-pequeno{
+
+    #preco-pequeno {
         font-size: 38px;
-        margin-top: -60px;
+        margin-top: -60px
     }
-    
-    #carrossel{
+
+    #carrossel {
         width: 60vw;
         height: 317px;
         overflow-x: scroll;
-        margin-top: 20px;
+        margin-top: 20px
     }
 
-    .img-carousel{
+    .img-carousel {
         height: 300px;
-        width: 300px;
+        width: 300px
     }
 
-    .icone-whatsapp{
-        width: 80px;
+    .icone-whatsapp {
+        width: 80px
     }
 }
 
-@media (max-width: 992px){
-    #paragrafo-colecao{
+@media (max-width:992px) {
+    #paragrafo-colecao {
         width: 300px;
-        color: white;
-        font-size: 1em;
+        color: #fff;
+        font-size: 1em
     }
-    
-    #titulo-colecao{
+
+    #titulo-colecao {
         font-size: 2em;
-        color: white;
+        color: #fff
     }
 
-    #logo-menu{
-        width: 25vw;
+    #logo-menu {
+        width: 25vw
     }
-    
-    #texto-instagram{
-        font-size: 20px;
+
+    #texto-instagram {
+        font-size: 20px
     }
-    
-    .img{
+
+    .img {
         width: 250px;
-        height: 320px;
+        height: 320px
     }
 
-    #quadro-promocao{
-        width: 200px;
+    #quadro-promocao {
+        width: 200px
     }
 
-    #todas-as-pecas{
-        font-size: 20px;
+    #todas-as-pecas {
+        font-size: 20px
     }
-    
-    #a-partir-de{
+
+    #a-partir-de {
         font-size: 10px;
-        margin-bottom: -5px;
+        margin-bottom: -5px
     }
 
-    #preco-grande{
+    #preco-grande {
         font-size: 80px;
-        margin-top: 10px;
+        margin-top: 10px
     }
-    
-    #preco-pequeno{
+
+    #preco-pequeno {
         font-size: 28px;
         margin-top: -50px;
-        margin-left: 40px;
+        margin-left: 40px
     }
-    
-    #carrossel{
+
+    #carrossel {
         width: 60vw;
         height: 267px;
         overflow-x: scroll;
-        margin-top: 20px;
+        margin-top: 20px
     }
 
-    .img-carousel{
+    .img-carousel {
         height: 250px;
-        width: 250px;
+        width: 250px
     }
 
-    #frame{
-        width: 60vw;
+    #frame {
+        width: 60vw
     }
 
-    #contato{
-        letter-spacing: 0.5px;
-        font-size: 20px;
+    #contato {
+        letter-spacing: .5px
     }
 
-    .icone{
+    .icone {
         width: 50px;
-        height: 50px;
+        height: 50px
     }
 
-    .p-contato{
-        font-size: 20px;
+    #contato,
+    .p-contato {
+        font-size: 20px
     }
 
-    .icone-whatsapp{
+    .icone-whatsapp {
         width: 60px;
         left: 85vw;
-        top: 85vh; 
+        top: 85vh
     }
-
 }
 
 @media (max-width:568px) {
-
-
-    #paragrafo-colecao{
+    #paragrafo-colecao {
         width: fit-content;
         max-width: 90vw;
-        color: white;
+        color: #fff;
         font-size: 1em;
         line-height: 1;
-        padding: 5px;
-    }
-    
-    #titulo-colecao{
-        font-size: 1.75em;
-        color: white;
+        padding: 5px
     }
 
-    #texto-colecao{
+    #titulo-colecao {
+        font-size: 1.75em;
+        color: #fff
+    }
+
+    #texto-colecao {
         width: 50vw;
         text-align: center;
-        padding-top: 60px;
-    }
-    
-    #imagem-colecao{
-        /* background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 60vw;
-        height: 90vh; */
-        display: none;
+        padding-top: 60px
     }
 
-    #img-grande{
-        /* width: 65vw;
-        height: max-content; */
-        display: none;
+    #imagem-colecao,
+    #img-grande {
+        display: none
     }
-    
-    #texto-instagram{
-        font-size: 12px;
+
+    #texto-instagram {
+        font-size: 12px
     }
-        
-    .img{
+
+    .img {
         width: 160px;
-        height: 200px;
-    }
-    
-    #quadro-promocao{
-        width: 125px;
-    }
-    
-    #todas-as-pecas{
-        font-size: 15px;
+        height: 200px
     }
 
-    #preco-pequeno{
-        font-size: 18px;
+    #quadro-promocao {
+        width: 125px
     }
 
-    #a-partir-de{
+    #todas-as-pecas {
+        font-size: 15px
+    }
+
+    #preco-pequeno {
+        font-size: 18px
+    }
+
+    #a-partir-de {
         font-size: 10px;
-        margin-bottom: -15px;
+        margin-bottom: -15px
     }
 
-    #preco-grande{
-        font-size: 70px;
+    #preco-grande {
+        font-size: 70px
     }
 
-    #carrossel{
+    #carrossel {
         width: 60vw;
         height: 217px;
         overflow-x: scroll;
-        margin-top: 20px;
+        margin-top: 20px
     }
 
-    .img-carousel{
+    .img-carousel {
         height: 200px;
-        width: 200px;
+        width: 200px
     }
 
-    #frame{
-        width: 80vw;
+    #contato,
+    #frame {
+        width: 80vw
     }
 
-    #contato{
+    #contato {
         letter-spacing: 2px;
-        width: 80vw;
         border-radius: 20px;
-        max-width: 1000px;
+        max-width: 1000px
     }
 
-    .icone{
+    .icone {
         width: 30px;
-        height: 30px;
+        height: 30px
     }
 
-    .p-contato{
-        font-size: 15px;
+    .p-contato {
+        font-size: 15px
     }
 
-    .icone-whatsapp{
+    .icone-whatsapp {
         width: 60px;
         left: 76vw;
-        top: 80vh; 
+        top: 80vh
     }
 
-    #footer{
-        height: fit-content;
+    #footer {
+        height: fit-content
     }
 
-    .p-footer{
-        font-size: 10px;
-    }
-    
-    #img-footer{
-        width: 120px;
-        font-size: 10px;
+    #img-footer,
+    .p-footer {
+        font-size: 10px
     }
 
-    .icone-footer{
+    #img-footer {
+        width: 120px
+    }
+
+    .icone-footer {
         width: 20px;
-        height: 20px;
+        height: 20px
     }
 }
